@@ -1,0 +1,430 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+    Modified from the Debian original for Ubuntu
+    Last updated: 2014-03-19
+    See: https://launchpad.net/bugs/1288690
+  -->
+  <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet"/>
+      <link href="styles.css" rel="stylesheet"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Planet code</title>
+    <style type="text/css" media="screen">
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+
+    background-color: #D8DBE2;
+
+    font-family: Verdana, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+  }
+
+  div.main_page {
+    position: relative;
+    display: table;
+
+    width: 800px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+
+    border-width: 2px;
+    border-color: #212738;
+    border-style: solid;
+
+    background-color: #FFFFFF;
+
+    text-align: center;
+  }
+
+  div.page_header {
+    height: 99px;
+    width: 100%;
+
+    background-color: #F5F6F7;
+  }
+
+  div.page_header span {
+    margin: 15px 0px 0px 50px;
+
+    font-size: 180%;
+    font-weight: bold;
+  }
+
+  div.page_header img {
+    margin: 3px 0px 0px 40px;
+
+    border: 0px 0px 0px;
+  }
+
+  div.table_of_contents {
+    clear: left;
+
+    min-width: 200px;
+
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.table_of_contents_item {
+    clear: left;
+
+    width: 100%;
+
+    margin: 4px 0px 0px 0px;
+
+    background-color: #FFFFFF;
+
+    color: #000000;
+    text-align: left;
+  }
+
+  div.table_of_contents_item a {
+    margin: 6px 0px 0px 6px;
+  }
+
+  div.content_section {
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.content_section_text {
+    padding: 4px 8px 4px 8px;
+
+    color: #000000;
+    font-size: 100%;
+  }
+
+  div.content_section_text pre {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+
+    background-color: #F5F6F7;
+
+    font-style: italic;
+  }
+
+  div.content_section_text p {
+    margin-bottom: 6px;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+  padding: 4px 8px 4px 16px;
+  }
+
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+
+    background-color: #8E9CB2;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  div.section_header_red {
+    background-color: #CD214F;
+  }
+
+  div.section_header_grey {
+    background-color: #9F9386;
+  }
+
+  .floating_element {
+    position: relative;
+    float: left;
+  }
+
+  div.table_of_contents_item a,
+  div.content_section_text a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  div.table_of_contents_item a:link,
+  div.table_of_contents_item a:visited,
+  div.table_of_contents_item a:active {
+    color: #000000;
+  }
+
+  div.table_of_contents_item a:hover {
+    background-color: #000000;
+
+    color: #FFFFFF;
+  }
+
+  div.content_section_text a:link,
+  div.content_section_text a:visited,
+   div.content_section_text a:active {
+    background-color: #DCDFE6;
+
+    color: #000000;
+  }
+
+  div.content_section_text a:hover {
+    background-color: #000000;
+
+    color: #DCDFE6;
+  }
+
+  div.validator {
+  }
+    </style>
+  </head>
+  <body class="works_on_smartphone">
+    <div id="header-container">
+    <div class="main_page">
+      <div class="page_header floating_element">
+	<a href="https://www.youtube.com/watch?v=90mm9Tw6fFU">
+          <img src="https://static.vecteezy.com/system/resources/previews/022/507/130/original/earth-world-globe-planet-logo-free-png.png" alt="Planet Logo" class="floating_element" width="100"/>
+	  </a>
+        <div  class="floating_element">
+           <h1>Programmed Planet</h1>
+	</div>
+      </div>
+      <div id="nav-container">
+	<ul>
+	  <li><a href="http://52.47.194.11/tweets.html">Tweets</a></li>
+	  <li><a href="http://52.47.194.11/Apps.html">Apps</a></li>
+	  <li><a href="http://52.47.194.11/verde.html">News</a></li>
+	</ul>
+      </div>
+    </div>
+   
+      
+<!--      <div class="table_of_contents floating_element">
+        <div class="section_header section_header_grey">
+          TABLE OF CONTENTS
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#about">About</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#changes">Changes</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#scope">Scope</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#files">Config files</a>
+        </div>
+      </div>
+-->
+
+<div id="main-container">
+  <div class="article">
+    <div class="content_section floating_element">
+      <div class="section_header section_header_red">
+          <h2 id="about">Impact of programming on the planet</h2>
+        </div>
+        <div class="content_section_text">
+          <p>
+               Programming has fundamentally transformed the way we interact with the world and has had a significant impact on the environment around us, the Earth. This impact is diverse, ranging from positives that drive sustainability to challenges that require careful consideration. scheduling is playing a crucial role in the transition to cleaner, more renewable energy sources. Wind and solar power systems rely on complex algorithms to maximize power production and ensure efficient integration into the electrical grid. These advances have paved the way for a significant reduction in greenhouse gas emissions and a more sustainable approach to power generation.
+          </p>
+
+
+          <p>
+                On the plus side, scheduling has driven efficiency and automation in a variety of industries. Through intelligent algorithms and systems, production and logistics processes have been optimized, reducing the consumption of resources and minimizing waste.
+          </p>
+
+     </div>
+	<div class="section_header">
+	  <div id="changes"></div>
+	  <h2>Positive impact </h2>
+       </div>
+
+        <div class="content_section_text">
+
+	  <ul type="square">
+	    <li>
+	      <b>Efficiency and Automation:</b> Programming has allowed the automation of processes in various industries, which leads to greater efficiency and saving of resources. For example, automation in manufacturing can reduce waste and energy consumption by optimizing production.
+	    </li>
+	    <li>
+	      <b>Renewable Energy and Management:</b> Scheduling is used in the management and control of renewable energy systems, such as wind farms and solar plants, contributing to the transition to cleaner and more sustainable energy sources.
+	    </li>
+	    <li>
+	      <b>Environmental Monitoring:</b> Environmental monitoring systems rely on programming to collect, analyze, and display real-time data on the quality of air, water, and other environmental factors. This helps identify problems and take action to improve the health of the planet.
+	    </li>
+	    <li>
+	      <b>Education and Awareness:</b> Programming is also used to develop apps and platforms that promote environmental education and awareness on issues such as climate change, biodiversity conservation, and sustainability.
+	    </li>
+	    <li>
+	      <b>Precision Agriculture:</b> Scheduling is used in precision agriculture systems, allowing more efficient use of agricultural resources such as water and fertilizers, thus reducing environmental impact.
+	    </li>
+	    </ul>
+	      
+          <p>
+            There are numerous projects and applications that use programming to address environmental challenges and improve the environment.
+	  </p>
+	  <div>
+	    <h3> Here are some prominent examples</h3>
+	  </div>
+	  
+            <ol type="I">
+		<li>
+		  <b>Environmental Monitoring Platforms:</b> Applications and systems that collect and analyze data in real time on the quality of air, water, biodiversity and other environmental factors. These data allow authorities and the community to make informed decisions about environmental management.
+		</li>
+		<li>
+		  <b>Precision Agriculture:</b> Use of sensors and algorithms to optimize agricultural production. This includes monitoring soil, moisture, and weather conditions to efficiently apply irrigation, fertilizers, and pesticides, thereby reducing waste and environmental impact.
+		</li>
+		<li>
+		  <b>Recycling and Waste Management:</b> Platforms that facilitate the monitoring and efficient management of recycling, helping communities and companies to optimize the collection and processing of waste.
+		</li>
+		<li>
+		  <b>Biodiversity Conservation:</b> Apps for tracking and monitoring endangered species, as well as data analysis platforms to better understand migration patterns and ecosystem health.
+		</li>
+		<li>
+		  <b>Climate Simulations and Predictive Models:</b> Use of programming to develop climate models and simulations that help predict the impact of climate change and inform mitigation policies.
+		</li>
+		<li>
+		  <b>Environmental Education and Awareness:</b> Educational applications and games that increase public awareness of environmental problems, promoting the adoption of more sustainable habits and participation in conservation activities.
+		</li>
+		<li>
+		  <b>Forest Fire Detection and Prevention:</b> Use of algorithms and sensors to monitor areas prone to forest fires, enabling early detection and faster response to minimize damage.
+		</li>
+		<li>
+		  <b>Clean Technology Development:</b> Programming is used in the research and development of clean technologies, such as carbon capture and storage, geothermal energy, and power generation from unconventional sources.
+		</li>
+	    </ol>
+
+
+	    <h2>COMMUNITIES</h2>
+		  
+		  <p>
+		    There are communities of <strong>programmers</strong> targeting the environment.
+		      
+		      their main objective is to use the skills and knowledge of developers to address environmental challenges and contribute to sustainability. These communities are formed with the purpose of bringing together people who are passionate about technology and the environment, in order to work together to create technological solutions that have a positive impact on the planet.
+			</p>
+
+		      <h4><b>I'll give you a list of websites and online communities where you can join programmers who are interested in developing solutions to help the environment and sustainability:</b></h4>
+
+		      <ul type="square">
+			<li>
+			  <i>GitHub:</i> GitHub is a collaborative development platform that hosts a large number of open source projects related to sustainability and the environment. You can search for projects and contribute to them.
+			</li>
+			<li>
+			  <a href="https://github.com/">Website: GitHub</a>
+			</li>
+			<li>
+			  <i>Open Source Ecology:</i> A community that focuses on the development of open and sustainable technologies for agriculture, construction and more.
+			</li>
+			<li>
+			  <a href="https://www.opensourceecology.org/">Website: Open Source Ecology</a>
+			</li>
+			<li>
+			  <i>Meetup:</i> Find local groups of programmers and environmental enthusiasts in your area who come together to discuss and work on projects related to sustainability.
+			</li>
+			<li>
+			  <a href="https://www.meetup.com/">Website: Meetup</a>
+			</li>
+			<li>
+			 <i>Devpost:</i> Platform where hackathons and challenges related to the environment and sustainability are announced and shared.
+			</li>
+			<li>
+			  <a href="https://devpost.com/">Website: Devpost</a>
+			</li>
+			<li>
+			 <i>Conservation Technology Community:</i> A community on Slack that brings together technology and conservation professionals.
+			</li>
+			<li>
+			  <a href="https://conservationtech.slack.com/">Website: Conservation Technology Community</a>
+			</li>
+			<li>
+			  <i>ClimateAction.tech:</i>Community that promotes climate action in the technology industry and seeks solutions to address climate change.
+			</li>
+			<li>
+			  <a href="https://climateaction.tech/">Website: ClimateAction.tech</a>
+			</li>
+		      </ul>
+	  <p>
+	    <em>These resource-filled communities and websites will provide you with opportunities to connect with others who are passionate about technology and the environment, and collaborate on projects that make a difference in sustainability. Be encouraged to contribute to the care of our home, the Earth!</em>
+	  </p>
+	  
+        </div>
+
+        <div class="section_header">
+            <div id="docroot"></div>
+                <h3>Would you like to know how you can contribute to the care of our home, the earth?</h3>
+        </div>
+
+        <div class="content_section_text">
+            <p>
+              Contributing to caring for the environment is not limited only to programming, but also involves small changes in daily life. One idea is to adopt sustainable habits, such as reducing energy consumption by turning off electronic devices when not in use, recycling and reusing products instead of throwing them away, and opting for public transportation, walking or biking instead of using motorized vehicles. Additionally, you can promote environmental awareness by sharing relevant information on social media and participating in community cleanup campaigns.
+	      <a href="https://www.arborday.org/trees/planting/">Plant trees</a>
+                and vegetation in urban spaces can also have a positive impact on air quality and the local environment. By combining your technological skills with small daily actions, you will be making a significant contribution to <em>caring for the planet.</em>
+            </p>
+            <p>
+                You can also collaborate with local organizations to develop technology solutions that help monitor air and water quality in your community.
+            </p>
+        </div>
+
+        <div class="section_header">
+          <div id="bugs"></div>
+                <h3>Sustainable programming courses</h3>
+        </div>
+        <div class="content_section_text">
+          <p>
+               Here you can also find some types of courses and platforms where you could look for courses related to sustainable programming and energy efficiency in software development. I recommend you visit these platforms to find courses that suit your needs.
+          </p>
+          <p>
+	    <b>Pluralsight:</b> Pluralsight offers courses and learning paths on sustainable development and efficient programming practices.
+	    <a href="https://www.pluralsight.com/">Pluralsight</a>
+	  </p>
+
+	  <p>
+	    <b>Udemy:</b> Udemy has a wide variety of online courses on programming and sustainable development. You can search for terms like "sustainable programming" or "energy efficient software development."
+	    <a href="https://www.udemy.com/">Udemy</a>
+          </p>
+	  <p>
+	    <b>LinkedIn Learning:</b> On this platform, you can find courses on programming and software development with a focus on sustainability and energy efficiency.
+	    <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a>
+	  </p>
+	  <p>
+	    <b>Free Learning Platforms:</b> Sites like Khan Academy, FreeCodeCamp, and others may have resources and courses related to coding and sustainability.
+	    <a href="https://es.khanacademy.org/">Khan Academy</a>,
+	    <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+	  </p>
+	  </div>
+
+
+
+
+      </div>
+    </div>
+    <div class="validator">
+    </div>
+    <div class="aside">
+      <p>placeholder to add comment thread later</p>
+    </div>
+</div>
+    </div>
+    
+    
+    <div id="footer-container">
+      <p>Made by Wendy Johana Quiroz Álvarez for <a href="https://apply.holbertonschool.com" target="_blank">Holberton School</a>.</p>
+              </div>
+  </body>
+</html>
+

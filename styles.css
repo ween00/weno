@@ -1,0 +1,34 @@
+body, #main-container {
+    display: flex;
+}
+body {
+    flex-direction: column;
+}
+#main-container {
+    flex-direction: row;
+}
+#main-container {
+    flex: auto;
+}
+.article {
+    flex: 2;
+    overflow-y: auto;
+}
+.aside {
+    flex: 1;
+    overflow-y: auto;
+}
+header, #footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+@media (max-width: 768px) {
+    #main-container {
+	flex-direction: column;
+    }
+    .article, .aside {
+	flex: none; 
+	border: none;
+    }
+}
