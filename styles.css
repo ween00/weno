@@ -20,7 +20,7 @@ body {
 }
 header, #footer-container {
     background-color: #0000009d;
-    color: #a31111;
+    color: #661616;
     padding: 20px;
 }
 @media (max-width: 768px) {
