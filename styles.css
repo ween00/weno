@@ -19,8 +19,8 @@ body {
     overflow-y: auto;
 }
 header, #footer-container {
-    background-color: #0000009d;
-    color: #661616;
+    background-color: #4d47479d;
+    color: #fff;
     padding: 20px;
 }
 @media (max-width: 768px) {
